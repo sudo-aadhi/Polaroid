@@ -8,6 +8,9 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        alex: ["var(--font-alex-mono)"], // Fixed variable name
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
