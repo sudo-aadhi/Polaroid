@@ -121,7 +121,16 @@ export const RightPolaroid = () => {
   return (
     <div className="flex items-center justify-center w-[550px] h-full">
       <div className="flex flex-col w-[415px] h-[650px]">
-        <YellowSticky />
+        <YellowSticky
+          typography={`My Dearest,  
+✨ You are my brightest star. 🌌  
+Your smile 😊 and laughter 🎶 are my greatest treasures. 💎  
+I love you endlessly. ❤️  
+
+Forever yours,  
+Aadhi 💌
+`}
+        />
         <ThirdPolaroid />
       </div>
     </div>
